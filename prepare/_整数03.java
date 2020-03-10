@@ -13,7 +13,7 @@ public class _整数03 {
     public static void main(String[] args) {
         f(4, 7);
 
-    }
+    }                       
     // 筛选标记达成组合要求的数组
     private static void f(int a, int b) {
         int[] data = new int[N];
