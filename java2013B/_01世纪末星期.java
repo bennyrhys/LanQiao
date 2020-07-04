@@ -31,7 +31,7 @@ public class _01世纪末星期 {
         for (int year = 1999; year < 10000; year+=100) {
             // 传俩参
             calendar.set(Calendar.YEAR, year);
-            calendar.set(Calendar.MONTH, 11);// 12月
+            calendar.set(Calendar.MONTH, 11);// 12月 从0开始
             calendar.set(Calendar.DAY_OF_MONTH, 31);
 
             // 验证 1999星期五应该输出6
