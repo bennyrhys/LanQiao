@@ -1,6 +1,5 @@
 package java2013B;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 /**
@@ -88,6 +87,7 @@ public class _08幸运数 {
         for (int i = 0; i < n; i++) {
             if (a[i] >=  n) break;
             if (a[i] > m) ans++;
+            if (a[i]>=a[i+1]) break; // 不优化这里oj判错
         }
         System.out.println(ans);
     }
